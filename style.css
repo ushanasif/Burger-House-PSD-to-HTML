@@ -1,0 +1,310 @@
+/*======================================
+/Custom CSS
+=======================================*/
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    /*font-family: 
+    font-family: 'Montserrat', sans-serif;*/
+    font-family: 'Bebas Neue', cursive;
+}
+h1,h2,h3,h4,h5,h6{
+    
+}
+h1{
+    font-size: 4rem;
+    font-family: 'Alfa Slab One', cursive;
+}
+h2{
+    font-size: 3.2rem;
+}
+h3{
+    font-size: 2.8rem;
+}
+h4{
+    font-size: 2.4rem;
+}
+h5{
+    font-size: 2rem;
+}
+h6{
+    font-size: 1.6rem;
+}
+p{
+    color: #3d2514;
+    font-size: 1.6rem;
+    font-family: 'Montserrat', sans-serif;
+}
+a:link,
+a:hover{
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+ul{
+    list-style: none;
+}
+.container{
+    border-right: 1px solid blue;
+    border-left: 1px solid blue;
+}
+
+
+
+/*======================================
+/Custom CSS End
+=======================================*/
+
+/*======================================
+/Header CSS Start
+=======================================*/
+h6{
+    font-size: 32px;
+}
+ol{
+    font-size: 24px;
+}
+header{
+    background: #ffc24a;
+}
+.top-header{
+    padding: 0 5rem;
+    padding-top: 3rem;
+}
+logo{
+
+}
+.logo img{
+    width: 220px;
+    height: 40px;
+}
+.exp-area{
+    text-align: right;
+}
+.exp-area img{
+    margin-right: 1rem;
+}
+.exp-area p{
+    color: #3d2514;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: inline-block;
+}
+.navbar{
+    padding: 0 2.5rem;
+}
+.navbar ul li{
+    margin: 0 2rem;
+}
+.navbar ul li a{
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 3px;
+    color: #3d2514;
+    text-transform: uppercase;
+}
+.hero-area{
+    padding: 0 6rem;
+}
+.hero-text{
+    margin-top: 8rem;
+}
+.hero-text p{
+    padding: 0.7rem;
+    border: 1px dashed #3d2514;
+    font-family: 'Bebas Neue', cursive;
+}
+.hero-text h1{
+    font-size: 7rem;
+}
+.hero-text h2{
+    font-size: 4rem;
+    font-family: 'Alfa Slab One', cursive;
+}
+.hero-img img{
+    margin-top: -12rem;
+    margin-left: -3rem;
+    width: 73rem;
+    height: 73rem;
+}
+
+/*======================================
+/Burger-area CSS Start
+=======================================*/
+.three-burger{
+    padding: 6rem 7rem;
+}
+.one-burger-area{
+    
+}
+.first-burger{
+    background: url('img/first-burger.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 470px;
+    height: 330px;
+}
+.second-burger{
+    background: url('img/second-burger.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 475px;
+    height: 155px;
+    margin-bottom: 2rem;
+}
+.third-burger{
+    background: url('img/third-burger.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 475px;
+    height: 155px;
+}
+
+/*======================================
+/Tasty-area CSS Start
+=======================================*/
+.tasty-content{
+    padding: 0 15rem;
+}
+.tasty-content a{
+    color: #3d2514;
+    background-color: #ffc24a;
+    padding: 1rem;
+}
+.tasty-content h2{
+    font-family: 'Alfa Slab One', cursive;;
+    font-weight: bold;
+    color: #3d2514;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+.tasty-content p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+}
+
+/*======================================
+/Order-area CSS Start
+=======================================*/
+#order-area{
+    padding: 4rem 0;
+}
+.mini-burger img{
+    width: 40rem;
+    height: auto;
+}
+.mini-burger-text{
+    padding: 0 2rem;
+    margin: 1rem 0;
+}
+.mini-burger-text h3{
+    color: #3d2514;
+}
+.mini-burger-text p{
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+.mini-burger-text a{
+    color: #fff;
+    background-color: red;
+    padding: 0.5rem 4rem;
+}
+
+/*======================================
+/Event-area CSS Start
+=======================================*/
+#event-area{
+    padding: 4rem 0;
+}
+.event-row{
+    margin: 0 11rem;
+    padding: 1rem;
+    box-shadow: 10px 10px 16px 10px #dcdcdc;
+}
+.up-event h3{
+    font-weight: bold;
+    font-family: 'Alfa Slab One', cursive;
+    color: #3d2514;
+}
+.up-event p{
+    font-size: 1.4rem;
+}
+.up-event img{
+    margin-top: 5rem;
+}
+.event-img img{
+    width: 40rem;
+    height: auto;
+}
+
+#table-area{
+    padding: 4rem 0;
+}
+.table{
+    position: relative;
+}
+.table-title{
+    margin-bottom: 4rem;
+}
+.table-title h4{
+    color: #3d2514;
+}
+.table-title h2{
+    color: #3d2514;
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: bold;
+    letter-spacing: 0.3rem;
+}
+.form-area{
+    margin: 0 auto;
+    width: 78.6rem;
+}
+form input{
+    font-size: 1.4rem;
+    width: 35%;
+    padding: 1rem;
+    margin: 1rem 1rem;
+    display: inline-block
+}
+form .btn{
+    background: red;
+    color: #fff;
+    font-size: 1.4rem;
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: bold;
+    width: 35%;
+    margin: 1rem;
+    padding: 1rem 0;
+}
+form .btn:hover{
+    background: blue;
+}
+
+.single-burger{
+    position: absolute;
+    top: -8rem;
+    left: -15px;
+    width: 23rem;
+    height: auto;
+}
+.bottle{
+    position: absolute;
+    top: 75px;
+    left: 10rem;
+    width: 18rem;
+    height: 32rem;
+}
+.dish{
+    position: absolute;
+    top: 85px;
+    right: -15px;
+    width: 26rem;
+    height: auto;
+}

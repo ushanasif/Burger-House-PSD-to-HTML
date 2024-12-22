@@ -1,0 +1,356 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 992px) and (max-width: 1280px) {
+
+            html {
+              font-size: 58.5%;
+          }
+            .card-img img {
+                bottom: 7rem;
+                width: 25rem;
+            } 
+            .card-body button {
+              font-size: 1.2rem;
+          }
+          h2 {
+            font-size: 2.8rem;
+          }
+          .download-left a img {
+            width: 13rem;
+          }
+          .apple-icon {
+            margin-left: 36px;
+          }
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+
+    .navbar-brand img {
+      width: 14rem;
+      height: 4rem;
+  }
+  .navbar-nav{
+    margin-top: 1rem;
+  }
+  .hero-img {
+    width: 50rem;
+    margin-top: 8rem;
+}
+#header-area {
+  height: 52rem;
+}
+.cab-row {
+  padding: 6rem 0;
+}
+    .hero-area h2 {
+      font-size: 4.2rem; 
+    }
+    .hero-area h3 {
+      font-size: 2.4rem;
+    }
+    .hero-area p {
+      font-size: 1.2rem;
+    }
+    .service-area{
+      padding: 0 6rem;
+      margin: 6rem 0;
+  }
+    .card{
+      margin-bottom: 12rem;
+    }
+    #tariff-area {
+      padding: 30px 0;
+    }
+    .card-no-margin{
+      margin-bottom: 2rem;
+    }
+    .wish-row .media{
+        margin-bottom: 4rem;
+    }
+    .wish-row .media {
+      padding: 0 8rem;
+  }
+  .wish-row .media-body {
+    margin-top: 1rem;
+}
+.wish-button {
+  margin-top: 2rem;
+}
+.download-row {
+  padding: 0 8rem;
+}
+.mobile-area{
+  display: none;
+}
+
+#test-area {
+  padding: 4rem 0;
+}
+.test-row{
+    padding: 0 5rem;
+    margin-left: 0;
+}
+.test-card{
+    margin-bottom: 3rem;
+}
+.call-content h3 {
+  font-size: 2.4rem;
+}
+.footer-box {
+  margin-bottom: 3rem;
+}
+.apple-icon {
+  margin-left: 37px;
+}
+
+
+
+
+
+
+
+
+
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+  
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    navbar-brand img {
+      width: 14rem;
+      height: 4rem;
+  }
+  .navbar-nav{
+      margin-top: 1rem;
+  }
+  .hero-area{
+      margin-top: 5rem;
+  }
+  .hero-img {
+    width: 50rem;
+    margin-top: 8rem;
+    display: none;
+  }
+#header-area {
+  height: 34rem;
+}
+.cab-row {
+  padding: 3rem 0;
+}
+    .hero-area h2 {
+      font-size: 4.2rem; 
+    }
+    .hero-area h3 {
+      font-size: 2.4rem;
+    }
+    .hero-area p {
+      font-size: 1.2rem;
+    }
+    .service-area{
+      padding: 0 6rem;
+      margin: 2rem 0;
+  }
+    .card{
+      margin-bottom: 12rem;
+    }
+    #tariff-area {
+      padding: 30px 0;
+    }
+    .tariff-row{
+        padding: 0 6rem;
+    }
+    .card-no-margin{
+      margin-bottom: 2rem;
+    }
+    .wish-row .media{
+        margin-bottom: 4rem;
+    }
+    .wish-row .media {
+      padding: 0 8rem;
+  }
+  .wish-row .media-body {
+    margin-top: 1rem;
+}
+.wish-button {
+  margin-top: 2rem;
+}
+.download-row {
+  padding: 0 8rem;
+}
+.download-left a img {
+  width: 14rem;
+}
+.mobile-area{
+  display: none;
+}
+
+#test-area {
+  padding: 4rem 0;
+}
+.test-row{
+    padding: 0 5rem;
+    margin-left: 0;
+}
+.test-card{
+    margin-bottom: 3rem;
+}
+.call-content h3 {
+  font-size: 1.6rem;
+}
+.call-content h2 {
+  font-size: 4rem;
+}
+.footer-row {
+  padding: 0 5rem;
+}
+.footer-box {
+  margin-bottom: 3rem;
+}
+.apple-icon {
+  margin-left: 37px;
+}
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    html{
+      font-size: 56%;
+    }
+    navbar-brand img {
+      width: 14rem;
+      height: 4rem;
+  }
+  .navbar-nav{
+      margin-top: 1rem;
+  }
+  .hero-area{
+      margin-top: 5rem;
+  }
+  .hero-img {
+    width: 50rem;
+    margin-top: 8rem;
+    display: none;
+  }
+#header-area {
+  height: 34rem;
+}
+.cab-row {
+  padding: 3rem 0;
+}
+    .hero-area h2 {
+      font-size: 4.2rem; 
+    }
+    .hero-area h3 {
+      font-size: 2.4rem;
+    }
+    .hero-area p {
+      font-size: 1.2rem;
+    }
+    .service-area{
+      padding: 0 6rem;
+      margin: 2rem 0;
+  }
+    .card{
+      margin-bottom: 12rem;
+    }
+    #tariff-area {
+      padding: 30px 0;
+    }
+    .tariff-row{
+        padding: 0 6rem;
+    }
+    .card-no-margin{
+      margin-bottom: 2rem;
+    }
+    .wish-row .media{
+        margin-bottom: 4rem;
+    }
+    .wish-row .media {
+      padding: 0 8rem;
+  }
+  .wish-row .media-body {
+    margin-top: 1rem;
+}
+.wish-button {
+  margin-top: 2rem;
+}
+.download-row {
+  padding: 0 8rem;
+}
+.download-left a img {
+  width: 14rem;
+}
+.mobile-area{
+  display: none;
+}
+
+#test-area {
+  padding: 4rem 0;
+}
+.test-row{
+    padding: 0 5rem;
+    margin-left: 0;
+}
+.test-card{
+    margin-bottom: 3rem;
+}
+.call-content h3 {
+  font-size: 1.6rem;
+}
+.call-content h2 {
+  font-size: 4rem;
+}
+.footer-row {
+  padding: 0 5rem;
+}
+.footer-box {
+  margin-bottom: 3rem;
+}
+.apple-icon {
+  margin-left: 37px;
+}
+    
+  }
+  
+    
+  }

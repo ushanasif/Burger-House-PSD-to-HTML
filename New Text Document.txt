@@ -1,0 +1,12 @@
+color: 
+
+ffc61a - yellow;
+1b1b1b
+
+
+Font:
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,300;0,400;0,900;1,700&display=swap');
+font-family: 'Bebas Neue', cursive;
+font-family: 'Lato', sans-serif;
+
+971529815985
